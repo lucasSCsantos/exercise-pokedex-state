@@ -1,0 +1,65 @@
+section {
+	display: flex;
+	flex-direction: row;
+	/* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.267); */
+	/* border: solid grey 1px;	 */
+	/* background-color: aqua; */
+	height: 200px;
+	width: 350px;
+	border-radius: 2px;
+	margin: 20px 20px 20px 20px;
+	background-image: url('https://wallpapercave.com/wp/wp2595119.jpg');
+}
+
+section .pokemonLeft {
+	width: 100px;
+	/* background-color: violet; */
+	border-radius: 10px 0 0 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: left;
+	box-sizing: border-box;
+	padding: 15px;
+	padding-left: 50px;
+}
+
+hr {
+	border: white solid 1px;
+	border-radius: 10px;
+}
+
+.pokemonRight {
+	/* background-color: rgb(43, 255, 0); */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 10px 10px 0;
+	align-items: center;
+}
+
+.pokemonRight img {
+	/* background-color: rgb(43, 255, 0); */
+	padding-right: 50px;
+	/* box-sizing: border-box; */
+	/* border: 10px solid black; */
+	width: 200px;
+	height: 200px;
+	/* background-color: transparent; */
+	position: absolute;
+}
+
+.type {
+	display: flex;
+	justify-content: center;
+	width: 65px;
+	height: 24px;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.type p {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+
